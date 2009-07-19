@@ -32,10 +32,10 @@ class Prowl(object):
         headers = {'User-Agent': "Prowlpy/%s" % str(__version__)}
         
         # URL-encode and string-ify keywords. Better type/content testing is needed here
-        application = urllib.quote(str(application))
-        event = urllib.quote(str(event))
-        description = urllib.quote(str(description))
-        priority = urllib.quote(str(priority))
+        # application = urllib.quote(str(application))
+        # event = urllib.quote(str(event))
+        # description = urllib.quote(str(description))
+        # priority = urllib.quote(str(priority))
         
         # Perform the request and get the response headers and content
         data = {
